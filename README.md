@@ -175,16 +175,15 @@ Step 22:You should now be prompted to log into the admin account we recently cre
 ![image](https://github.com/user-attachments/assets/5e6d440a-4d7b-43f4-9001-f789e48a8c6c)
 Step 23: To confirm Our HOST VM has merged with the DATACENTER VM, log back into the DATACENTER VM. In the Windows taskbar type "Active Directory Users and Computers". Then select the "Computers" folder, you should see your HOST PC in the list as shown above. 
 
-Step 24:
+![image](https://github.com/user-attachments/assets/3a423536-b41b-4bb4-95ba-db9c831db0af)
+Step 24: Log into the HOST PC as our recently created admin user account. in the Windows Taskbar search "about", then select "Remote Desktop".
 
+![image](https://github.com/user-attachments/assets/0893a80f-f7d0-4107-a216-591f22b3d09b)
+Step 25: Select "Select users that can remotely access this PC" then select "add", then type "Domain Users", click "Check Names", select "ok", then "ok" again.
 
+![Screenshot 2025-02-02 234111](https://github.com/user-attachments/assets/7320c85d-65a5-415b-81c0-2a04ee816dc7)
+Step 26: Go back to the DATACENTER VM, in the Windows taskbar type "PowerShell ISE", right-click and "Run as Administrator"
 
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/a519b117-726d-4bf0-883f-fbd0af972982)
+Step 27: You will create new script and run this script, this will create a MOCK list of USERS in the Active Directory
 
