@@ -61,33 +61,28 @@ Step 13: Select Network Interface/IP configuration
 ![image](https://github.com/user-attachments/assets/6402273e-fcb5-4178-b081-5f0c98bc63c8)
 Step 14: Select "ipconfig1", then select under "Allocation" select "static"
 
+SIDE NOTE: For this tutorial, we will log into the DATACENTER VM to turn OFF all firewalls (This is for demonstration purposes only and is NOT recommended to do in a live environment)
+
+![image](https://github.com/user-attachments/assets/70f77a73-acb4-43fc-9077-e94a526c707b)
+Step 15: Under Virtual Machines locate your public IP address (In this example mine is 172.206.5.122)
+
+![image](https://github.com/user-attachments/assets/b5cf0447-9fc5-494b-89b4-3e56265b8d6c)
+Step 16: Open "Remote Desktop Connection" on your Windows PC, paste your public IP address
+
+![image](https://github.com/user-attachments/assets/85567ea3-1330-4fad-9d78-9f24bcab13c6)
+Step 17: Log in using the credentials you created for the virtual machine
+
+![image](https://github.com/user-attachments/assets/5c5a3398-ebc5-48f8-bbe5-e746eee179c4)
+Step 18: You should be in logged into the Server Manager VM (as shown)
+
+![image](https://github.com/user-attachments/assets/306a656d-d1de-4af2-80c0-f1f42b5abd12)
+Step 19: Under the taskbar search "Run" then type "wf.msc"
+
+![image](https://github.com/user-attachments/assets/8ae51527-ea32-4593-9c73-1a4960548826)
+Step 20: Select "Windows Defender Firewall Properties", then under the tabs "Domain Profile", "Private Profile is Active", and "Public Profile", TURN OFF firewall, then select "OK"
+
+![image](https://github.com/user-attachments/assets/ed407845-c62d-45b2-a0c1-f064cf001b71)
+Step 21: Going back to our VMs in Azure, we will now go to our HOST VM to change the DNS address
 
 
 
-
-
-<h2>Deployment and Configuration Steps</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
