@@ -84,5 +84,22 @@ Step 20: Select "Windows Defender Firewall Properties", then under the tabs "Dom
 ![image](https://github.com/user-attachments/assets/ed407845-c62d-45b2-a0c1-f064cf001b71)
 Step 21: Going back to our VMs in Azure, we will now go to our HOST VM to change the DNS address
 
+![image](https://github.com/user-attachments/assets/96322296-ab4a-4a1d-8894-546eda8ca949)
+Step 22: Under the "Network interface/IP configuration", under "settings", select "DNS Servers", select "Custom" and type your DATACENTER PRIVATE IP address (for this example mine is 10.0.04)
+
+![image](https://github.com/user-attachments/assets/9d8b7e03-a1df-43c1-832c-0de5d9a01817)
+Step 23: To confirm both VMs have been correctly assigned, we will now log in to the HOST VM to confirm. Make sure you copy your public IP address to log in (mine is 172.200.214.33)
+
+![image](https://github.com/user-attachments/assets/549c904a-d80c-4758-bf38-dd4d6b85b94b)
+Step 24: Log into "Remote Desktop Connection" with the credentials you created for the VM.
+
+![image](https://github.com/user-attachments/assets/75056000-6f96-4dab-805b-90cb448d9be9)
+Step 25: Once in the HOST PC VMm, run "PowerShell" 
+
+![image](https://github.com/user-attachments/assets/06885cbb-ac99-4449-a9c3-3ad257df0180)
+Step 26: Type "ping" then YOUR private IP address, If successful you should receive a ping request as shown above.
+
+This concludes the Virtual Machine tutorial
+
 
 
