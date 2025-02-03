@@ -133,6 +133,9 @@ Step 9: UNCHECK "Create DNS delegation"
 ![image](https://github.com/user-attachments/assets/c5e1611c-5cad-4ff8-8bf1-3a9d70136cd8)
 Step 10: Proceed to "Prerequisites Check", then select "install"
 
+SIDE NOTE: We will now create a MOCK organization for demonstartion purposes
+IMPORTANT!: You will now be required to sign back into the VM using username "mydomain.com\" then whatever your username is
+
 ![image](https://github.com/user-attachments/assets/77bf11be-d600-43ac-8f6d-446351d221ae)
 Step 11: In the Windows Taskbar open "Active Directory Users and Computers"
 
@@ -151,13 +154,28 @@ Step 15: We will now create a user in the "_ADMINS" folder
 ![image](https://github.com/user-attachments/assets/b0354bbe-3520-49d8-b7eb-75addc473607)
 Step 16: You can name the user to whatever you like
 
-
 ![image](https://github.com/user-attachments/assets/c86c7cca-8195-415c-b066-c965f814facf)
-Step 17: Create the user password (please take note of it before proceeding)
+Step 17: Create the user password (please take note of it before proceeding), UNCHECK "User must change password at next logon" (this is for demonstartion purposes only), then select "next"
 
+![image](https://github.com/user-attachments/assets/511a645e-458c-45e5-bdfa-0cace40251dc)
+Step 18: We will now make our admin part of the scurity group, right-click user then "properties", select tab "Member of", then select "Add"
 
+![image](https://github.com/user-attachments/assets/6af5a22d-8789-4b09-aeca-ff73df3342ca)
+Step 19: select tab "Member of", then select "Add"
 
+![image](https://github.com/user-attachments/assets/2f2fcbac-b9ed-4324-a9f5-a956ab04e332)
+Step 20: Type "Domain Names", then select "Check Names", it should now group this user under Domain Admins list, then select "Ok" then "Ok again.
 
+![image](https://github.com/user-attachments/assets/ff4b4a82-832a-4584-accc-e4ce87dede61)
+Step 21: Log into the HOST VM with your credentials. In the Windows taskbar type "about" then select "Rename this PC (advanced)", next select "Change...". Under "Member Of", "Domain", type "Mydomain.com" then select "OK"
+
+![image](https://github.com/user-attachments/assets/c36707de-0d28-49a1-8e10-e0dd5d874d6d)
+Step 22:You should now be prompted to log into the admin account we recently created (mine is jane_admin)
+
+![image](https://github.com/user-attachments/assets/5e6d440a-4d7b-43f4-9001-f789e48a8c6c)
+Step 23: To confirm Our HOST VM has merged with the DATACENTER VM, log back into the DATACENTER VM. In the Windows taskbar type "Active Directory Users and Computers". Then select the "Computers" folder, you should see your HOST PC in the list as shown above. 
+
+Step 24:
 
 
 
