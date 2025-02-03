@@ -185,5 +185,6 @@ Step 25: Select "Select users that can remotely access this PC" then select "add
 Step 26: Go back to the DATACENTER VM, in the Windows taskbar type "PowerShell ISE", right-click and "Run as Administrator"
 
 ![image](https://github.com/user-attachments/assets/a519b117-726d-4bf0-883f-fbd0af972982)
-Step 27: You will create new script and run this script, this will create a MOCK list of USERS in the Active Directory
+Step 27: You will create new script and run this script, this will create a MOCK list of USERS in the Active Directory (located https://github.com/ExGv2/configure-ad/blob/main/Active%20Directory%20Script
+
 
