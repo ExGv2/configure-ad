@@ -136,11 +136,24 @@ Step 10: Proceed to "Prerequisites Check", then select "install"
 ![image](https://github.com/user-attachments/assets/77bf11be-d600-43ac-8f6d-446351d221ae)
 Step 11: In the Windows Taskbar open "Active Directory Users and Computers"
 
+![Screenshot 2025-02-02 221355](https://github.com/user-attachments/assets/9a0aad5b-a4b8-4fcd-9ccc-662b3f9860bf)
+Step 12: Right-click "mydomain.com", then select "new", then "Organizational Unit"
+
+![image](https://github.com/user-attachments/assets/18c9a584-fe2e-406c-b769-5564445c9e21)
+Step 13: Then type "_EMPLOYEES" (don't forget to include the underscore!)
+
+![image](https://github.com/user-attachments/assets/b6c7f1e0-b890-4638-b352-de50cad57f9e)
+Step 14: We will do the same as before, but this time create another unit called "_ADMINS"
+
+![Screenshot 2025-02-02 222157](https://github.com/user-attachments/assets/cc5e8baf-ff20-4911-a178-58f8cbe394d4)
+Step 15: We will now create a user in the "_ADMINS" folder
+
+![image](https://github.com/user-attachments/assets/b0354bbe-3520-49d8-b7eb-75addc473607)
+Step 16: You can name the user to whatever you like
 
 
-
-
-
+![image](https://github.com/user-attachments/assets/c86c7cca-8195-415c-b066-c965f814facf)
+Step 17: Create the user password (please take note of it before proceeding)
 
 
 
