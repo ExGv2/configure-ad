@@ -101,5 +101,59 @@ Step 26: Type "ping" then YOUR private IP address, If successful you should rece
 
 This concludes the Virtual Machine tutorial
 
+<h2>Installing Active Directory</h2>
+
+![image](https://github.com/user-attachments/assets/c23851d8-9ab2-4976-9ccc-cd4767b5feba)
+Step 1: Log into your DATACENTER VM on "Remote Desktop Connection"
+
+![image](https://github.com/user-attachments/assets/a88db94b-301b-4dcc-acc7-f9d20d6cdb9f)
+Step 2: Select "Add roles and features", then "Role-based or feature-based installation"
+
+![image](https://github.com/user-attachments/assets/ea57c9b0-eaec-40d7-beb3-f204be9e36b8)
+Step 3: The server selection should be the one you have as your datacenter
+
+![image](https://github.com/user-attachments/assets/fefac5e1-9d0a-416f-a7e1-d28d2c1ab706)
+Step 4: Under "Server Roles", you will check the box for "Active Directory Domain Services", then select "next"
+
+![image](https://github.com/user-attachments/assets/673a6276-e317-4428-903a-269a2a7c0ddf)
+Step 5: Under "Confirmation", check "Restart destination server automatically if required", then select "install"
+
+![image](https://github.com/user-attachments/assets/400fdc86-39ef-4010-acc6-cedf540d7220)
+Step 6: On the top right banner, select "Promote this server to a domain controller"
+
+![image](https://github.com/user-attachments/assets/ce76e869-bd25-4c67-a23c-6d7bdbae9f79)
+Step 7: We will create a new "root" domain, for this example we will use mydomain.com
+
+![image](https://github.com/user-attachments/assets/23eda5a6-2824-4383-92ec-23155f4f17fb)
+Step 8: Although we might not need it, create a password for the "DSRM"
+
+![image](https://github.com/user-attachments/assets/c0da67f9-352a-4f3b-92b7-eef9929dbb3c)
+Step 9: UNCHECK "Create DNS delegation"
+
+![image](https://github.com/user-attachments/assets/c5e1611c-5cad-4ff8-8bf1-3a9d70136cd8)
+Step 10: Proceed to "Prerequisites Check", then select "install"
+
+![image](https://github.com/user-attachments/assets/77bf11be-d600-43ac-8f6d-446351d221ae)
+Step 11: In the Windows Taskbar open "Active Directory Users and Computers"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
