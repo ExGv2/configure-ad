@@ -190,5 +190,40 @@ Step 27: You will create new script and run this script, this will create a MOCK
 ![image](https://github.com/user-attachments/assets/42319b13-9b8a-4b8a-acb9-0ecea0c8caba)
 Step 28: It will now generate thousands of users. Credit: [Josh Madakor](https://github.com/joshmadakor1)
 
-Step 29: 
+SIDE NOTE: For this demonstration we will select a random user to log into (the password is provided at the very top of the script. "Password1")
+
+![image](https://github.com/user-attachments/assets/e7d045c0-0e3f-4cfc-b596-bc4649328891)
+Step 29: At the DATACENTER VM search "Active Directory Users and Computers", select the "_EMPLOYEES" folder, it should have generated thousands of users for you to choose from. select a random one.
+
+![image](https://github.com/user-attachments/assets/646863b5-191e-406a-86ca-711f5f77ab3f)
+Step 30: Now we will log into the HOST PC with one random selected user (mine will be baw.fak), if done correctly you should be able to log into the selected random user
+
+SIDE NOTE: We will now demonstrate a user account lock out 
+
+![image](https://github.com/user-attachments/assets/8daa863f-d762-40ec-83a0-aff46ee3e48e)
+Step 31: On your DATACENTER VM, in the search bar type "gpmc.msc"
+
+![image](https://github.com/user-attachments/assets/54a82748-ee37-4753-8bcc-254436618147)
+Step 32: Under "mydomain.com" right-click "default domain policy" then click "edit".
+
+![image](https://github.com/user-attachments/assets/ab230e7c-1070-4dd2-b476-853cb93fa137)
+Step 33: Then click "Windows settings" > "Security Settings" > "Account Policies" > "Account Lockup Policy"
+
+![image](https://github.com/user-attachments/assets/e5a72805-5301-451a-8839-3836c44b4ae4)
+Step 34: Select "Account lockout duration" > Check "Define this policy setting" then set the timer to 30 minutes for this example. Then select "OK", 
+
+![image](https://github.com/user-attachments/assets/362ba681-d6bf-4f18-b1a5-c1c4be713cc2)
+Step 35: Additionally you can adjust all other settings as shown for admin and lockout thresholds.
+
+![image](https://github.com/user-attachments/assets/2ead91c3-a4ad-43c4-a5d5-42b7d2225a83)
+Step 36: Now to initiate account lockout, input a wrong password for your random account 10 or more times until you are prevented from logging in again. (You should see this popup)
+
+![image](https://github.com/user-attachments/assets/ead38652-ccb3-47b6-8079-4046239cc205)
+Step 37: Now back in the DATACENTER VM go to "Active Directory Users and computers", right-click "mydomain.com", select "find"
+
+![image](https://github.com/user-attachments/assets/66c49d64-cccb-4c1d-a140-3649534d8ebe)
+Step 38: 
+
+
+
 
