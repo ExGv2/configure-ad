@@ -222,7 +222,10 @@ Step 36: Now to initiate account lockout, input a wrong password for your random
 Step 37: Now back in the DATACENTER VM go to "Active Directory Users and computers", right-click "mydomain.com", select "find"
 
 ![image](https://github.com/user-attachments/assets/66c49d64-cccb-4c1d-a140-3649534d8ebe)
-Step 38: 
+Step 38: Type your random account name then click "Find now".
+
+![image](https://github.com/user-attachments/assets/462ce9ef-20df-425e-b3af-7f30888923bb)
+Step 39: Double click account, click "Account" tab, then select "Unlock account", click apply and re-attempt to log into the user account. You should now have access logging into the account again.
 
 
 
