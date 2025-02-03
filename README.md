@@ -188,5 +188,7 @@ Step 26: Go back to the DATACENTER VM, in the Windows taskbar type "PowerShell I
 Step 27: You will create new script and run this script, this will create a MOCK list of USERS in the Active Directory [here](https://github.com/ExGv2/configure-ad/blob/main/Active%20Directory%20Script)
 
 ![image](https://github.com/user-attachments/assets/42319b13-9b8a-4b8a-acb9-0ecea0c8caba)
-Step 28: It will now generate thousands of users.
+Step 28: It will now generate thousands of users. Credit: [Josh Madakor](https://github.com/joshmadakor1)
+
+Step 29: 
 
